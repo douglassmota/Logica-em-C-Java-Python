@@ -1,0 +1,22 @@
+/*
+Seção 8 - Exercício 2
+
+Escreva um algoritmo que leia dois vetores de 10 posições e faça a 
+soma dos elementos de mesmo índice, colocando o resultado em um terceiro
+vetor. Mostre o vetor resultante.
+*/
+
+vetor1[10] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+vetor2[10] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+vetor3[10] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#processamento
+para i = 0, enquanto i < 10, processar
+   escrever "Digite um valor para o primeiro vetor: "
+   receber vetor1[i]
+   escrever "Digite um valor para o segundo vetor: "
+   receber vetor2[i]
+   vetor3[i] = vetor1[i] + vetor2[i]
+para i = 0, enquanto i < 10, processar
+    #saída
+    escrever vetor3[i]
+

@@ -1,0 +1,16 @@
+/*
+Seção 8 - Exercício 3
+
+Faça um programa que carregue um vetor com dez números inteiros. 
+Mostre o vetor na ordem inversa a que foi digitado.
+*/
+vetor[10] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#processamento
+para i = 0, enquanto i < 10, processar
+   escrever "Digite um valor: "
+   #entrada
+   receber vetor[i]
+para i = 9, enquanto i >= 0, processar
+   #saída
+   escrever vetor[i]
+

@@ -1,0 +1,27 @@
+/*
+
+Seção 2 - Exercício 1
+
+Crie uma sequência lógica para tomar banho.
+
+*/
+
+
+"tomar banho" 
+
+entrar no banheiro
+tirar a roupa
+ligar o chuveiro
+molhar o corpo
+desligar o chuveiro
+ensaboar o corpo
+lavar o corpo
+ligar o chuveiro
+tirar o sabão
+desligar o chuveiro
+enxugar-se
+vestir a roupa
+sair do banheiro
+
+
+

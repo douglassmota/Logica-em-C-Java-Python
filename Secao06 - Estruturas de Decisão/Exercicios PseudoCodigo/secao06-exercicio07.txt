@@ -1,0 +1,30 @@
+/*
+Seção 6 - Exercício 7
+
+Desenvolva um algoritmo que:
+a) leia 4 (quatro) números;
+b) Calcule o quadrado de cada um;
+c) Se o valor resultante do quadrado do terceiro for >= 1000, imprima-o e finalize;
+d) Caso contraŕio, imprima os valores lidos e seus respectivos quadrados;
+*/
+
+#entradas
+receber n1
+receber n2
+receber n3
+receber n4
+#processamento
+q1 = n1 * n1
+q2 = n2 * n2
+q3 = n3 * n3
+q4 = n4 * n4
+se q3 >= 1000 então:
+  #saída 1
+  escreva q3
+senão
+  #saída 2
+  escreva n1 => q1
+  escreva n2 => q2
+  escreva n3 => q3
+  escreva n4 => q4
+

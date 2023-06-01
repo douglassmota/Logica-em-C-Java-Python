@@ -1,0 +1,31 @@
+/*
+Seção 7 - Exercício 6
+
+Desenvolva um gerador de tabuada, capaz de gerar a tabuada de
+qualquer número inteiro entre 1 a 10. O usuário deve informar
+de qual número ele deseja ver a tabuada. A saída deve ser conforme
+o exemplo abaixo:
+
+Tabuada de 5:
+5 X 1 = 5
+5 X 2 = 10
+...
+5 X 10 = 50
+*/
+
+#entradas
+escrever "Informe um número entre 1 e 10 para gerar a tabuada"
+receber numero
+#processamento
+enquanto numero < 1 OR numero > 10, processar
+    escrever "Número deve ser maior que 1 e menor que 10"
+    escrever "Informe um número entre 1 e 10 para gerar a tabuada"
+    receber numero
+escrever "Tabuada de " + numero + ":"
+para i = 1, enquanto i <= 10, processar
+    valor = numero * i
+    #saída
+    escrever numero + " X " + i + " = " + valor
+
+
+

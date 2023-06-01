@@ -1,0 +1,35 @@
+/*
+Seção 6 - Exercício 8
+
+Faça um algoritmo que leia um número inteiro e mostre uma mensagem
+indicando se este número é par ou ímpar, e se é positivo ou negativo.
+*/
+
+#entradas
+recever numero
+#processamento
+se (numero % 2 == 0) então
+    se numero == 0 então:
+        #saída 1
+        escreva "Número neutro"
+    se numero > 0 então
+        #saída 2
+        escreva "Número par positivo"
+    senão
+        #saída 3
+        escreva "Número par negativo"
+senão
+    se numero > 0 então
+        #saída 4
+        escreva "Número ímpar positivo"
+    senão
+        #saída 5
+        escreva "Número ímpar negativo"
+
+
+num1 = 8  -> Número par positivo
+num2 = -8 -> Número par negativo
+num3 = 5  -> Número ímpar positivo
+num4 = -5 -> Número ímpar negativo
+num5 = 0  -> Número neutro
+

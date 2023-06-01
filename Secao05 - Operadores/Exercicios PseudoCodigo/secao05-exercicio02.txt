@@ -1,0 +1,18 @@
+/*
+Seção 5 - Exercício 2
+
+Sabendo que a = 3, b = 7 e c = 4, informe se as expressões abaixo são
+verdadeiras ou falsas.
+*/
+
+a) (a + c) > b    ( )verdadeira  (X)falsa  -> (3 + 4) > 7 -> (7) > 7 -> Falsa
+
+b) b >= (a + 2)   (X)verdadeira  ( )falsa  -> 7 >= (3 + 2) -> 7 >= (5) -> Verdadeira
+
+c) c == (b - a)   (X)verdadira   ( )falsa -> 4 == (7 - 3) -> 4 == (4) -> Verdadeira
+
+d) (b + a) <= c   ( )verdadeira  (X)falsa -> (7 + 3) <= 4 -> (10) <= 4 -> Falsa
+
+e) (c + a) > b    ( )verdadeira  (X)falsa -> (4 + 3) > 7 -> (7) > 7 -> Falsa
+
+

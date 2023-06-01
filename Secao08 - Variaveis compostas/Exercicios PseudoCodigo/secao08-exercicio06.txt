@@ -1,0 +1,25 @@
+/*
+Seção 8 - Exercício 6
+
+Faça um programa que receba um código numérico e um vetor de cinco posições de
+números reais. Se o código for 0 (zero), termine o programa. Se o código for 1,
+mostre o vetor na ordem direta. Se o código for 2, mostre o vetor na ordem inversa.
+*/
+vetor[5] = [0, 0, 0, 0, 0]
+escrever "Digite o código: "
+#entrada 1
+receber codigo
+se codigo != 0 então
+    para i = 0, enquanto i < 5, processar
+        escrever "Digite um valor: "
+        #entrada 2
+        receber vetor[i]
+    se codigo == 1 então
+        para i = 0, enquanto i < 5, processar
+            #saída 1
+            escrever vetor[i]
+    se codigo == 2 então
+        para i = 4, enquanto i <= 0, processar
+            #saída 2
+            escrever vetor[i]
+

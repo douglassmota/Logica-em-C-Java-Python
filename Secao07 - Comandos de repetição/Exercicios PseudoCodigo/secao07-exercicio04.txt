@@ -1,0 +1,35 @@
+/*
+Seção 7 - Exercício 4
+
+Construa um algoritmo que leia 10 valores inteiros e positivos e:
+a) Encontre o maior valor;
+b) Encontre o menor valor
+c) Calcule a média dos números lidos;
+*/
+
+maior = -999
+menor = 999
+soma = 0
+#processamento
+para i = 0, enquanto i < 10, processar
+    #entrada
+    receber valor
+    enquanto valor < 0 processar
+        escreva "Informe um valor positivo"
+        #entrada
+        receber valor
+    se valor > maior então
+        maior = valor
+    se valor < menor então
+        menor = valor
+    soma = soma + valor
+#saídas
+escrever "Maior: " + maior
+escrever "Menor: " + menor
+escrever "Média: " + (soma / 10)
+
+
+valor = 3
+valor = 42
+valor = 1
+

@@ -1,0 +1,19 @@
+/*
+Seção 6 - Exercício 1
+
+Ler uma variável numérica n e imprimi-la somente se a mesma for
+maior que 100, caso contrário imprimi-la com o valor zero.
+*/
+
+#entradas
+receber n
+
+#processamento
+se n > 100 então
+    #saída a
+    escrever valor
+senão
+    n = 0
+    #saída b
+    escreve n
+

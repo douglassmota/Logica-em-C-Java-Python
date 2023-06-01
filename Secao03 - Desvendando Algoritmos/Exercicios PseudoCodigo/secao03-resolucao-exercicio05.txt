@@ -1,0 +1,19 @@
+/*
+Seção 3 - Exercício 5
+
+Faça um algortimo que converta metros para centímetros.
+
+1 metro == 100 centímetros
+*/
+
+"converte metros para centímetros"
+
+#entrada
+receber o tamanho em metros
+
+#processamento
+multiplicar o tamanho em metros por 100
+
+#saída
+mostrar o resultado da conversão
+

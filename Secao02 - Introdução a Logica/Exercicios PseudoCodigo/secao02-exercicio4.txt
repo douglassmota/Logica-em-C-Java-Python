@@ -1,0 +1,19 @@
+/*
+Seção 02 - Exercício 4
+
+Faça um algoritmo para trocar uma lâmpada.
+Descreva os detalhes.
+*/
+
+
+"trocar lâmpada"
+
+desligar o interruptor de luz
+pegar um nova lâmpada
+pegar uma cadeira/escada
+subir na cadeira/escada
+remover a lâmpada queimada
+colocar a nova lâmpada
+descer da cadeira
+ligar o interruptor de luz
+

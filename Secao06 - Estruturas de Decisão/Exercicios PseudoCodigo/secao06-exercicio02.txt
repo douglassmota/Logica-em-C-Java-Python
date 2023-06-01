@@ -1,0 +1,28 @@
+/*
+Seção 6 - Exercício 2
+
+Elabore um algoritmo que leia um número. Se positivo, armazene-o em 'a',
+se for negativo, em 'b'. No final mostrar o resultado.
+*/
+
+#entrandas
+receber numero 
+
+#processamento
+se numero > 0 então
+   a = numero
+   #saida 1
+   escrever "valor positivo"
+   escrever a
+se numero == 0 então
+   #saida 2
+   escrever "valor neutro"
+   escrever numero
+senão
+   b = numero
+   #saida 3
+   escrever "valor negativo"
+   escrever b
+
+
+

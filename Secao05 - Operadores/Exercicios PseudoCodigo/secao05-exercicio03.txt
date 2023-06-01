@@ -1,0 +1,13 @@
+/*
+Seção 5 - Exercício 3
+
+Sabendo que a = 5, b = 4, c = 3 e d = 6, informe se as expressões abaixo são verdadeiras
+ou falsas.
+*/
+a) (a > c) AND (c <= d)                (X)verdadeira ( )falsa -> (5 > 3) AND (3 <= 6)
+
+b) (a + b) > 10 OR (a + b) == (c + d)  (X)verdadeira ( )falsa -> (5 + 4) > 10 OR (5 + 4) == (3 + 6)
+
+c) (a >= c) AND (d >= c)               (X)verdadeira ( )falsa -> (5 >= 3) AND (6 >= 3)
+
+
